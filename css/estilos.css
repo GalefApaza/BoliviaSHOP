@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Barra de navegación */
+nav ul {
+    list-style: none;
+    background-color: #34495e;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #1abc9c;
+}
+
+/* Contenido Principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+/* Listas de productos y elementos */
+.producto-item {
+    background-color: #ecf0f1;
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-left: 4px solid #1abc9c;
+}
+
+/* Select y controles */
+.control-seccion {
+    margin: 20px 0;
+}
+
+select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Imagen de referencia */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #fff;
+}
+
+/* Pie de página */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+footer nav a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
