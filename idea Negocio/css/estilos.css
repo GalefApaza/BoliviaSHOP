@@ -130,3 +130,47 @@ footer nav a:hover {
         margin: 8px 0;
     }
 }
+
+body.claro {
+    background-color: #e0a267;
+    color: #000000;
+}
+
+/* 2. Encabezado */
+body.claro header {
+    background-color: #f06007;
+    color: #000000;
+}
+
+body.claro header p {
+    color: #2a1f32;
+}
+
+body.claro nav, 
+body.claro nav ul {
+    background-color: #7d937f;
+}
+
+body.claro nav a {
+    color: #000000;
+}
+
+body.claro main {
+    background-color: #ef9060;
+    color: #000000;
+}
+
+body.claro .producto-item {
+    background-color: #e7efe8;
+    color: #000000;
+    border-left-color: #2c3e50;
+}
+
+body.claro footer {
+    background-color: #f0a610;
+    color: #000000;
+}
+
+body.claro footer nav a {
+    color: #000000;
+}
