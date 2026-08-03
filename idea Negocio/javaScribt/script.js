@@ -15,3 +15,10 @@ function alternarModo() {
 }
 
 botonModo.addEventListener("click", alternarModo);
+
+const btnMenu = document.querySelector("#btn-menu");
+const menuLista = document.querySelector("nav ul");
+
+btnMenu.addEventListener("click", () => {
+    menuLista.classList.toggle("abierto");
+});

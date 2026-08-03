@@ -1,3 +1,8 @@
+/* Ocultar el botón por defecto en escritorio */
+#btn-menu {
+    display: none;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -114,11 +119,29 @@ footer nav a:hover {
 }
 
 
+
 @media (max-width: 600px) {
 
+  
+    #btn-menu {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 24px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
     nav ul {
+        display: none; 
         flex-direction: column;
         gap: 5px;
+    }
+
+
+    nav ul.abierto {
+        display: flex;
     }
 
     main {
@@ -173,4 +196,10 @@ body.claro footer {
 
 body.claro footer nav a {
     color: #000000;
+}
+
+@media (min-width: 601px) {
+    #btn-menu {
+        display: none;
+    }
 }
