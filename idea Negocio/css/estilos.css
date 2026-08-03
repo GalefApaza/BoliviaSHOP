@@ -264,3 +264,56 @@ body.claro form button[type="submit"] {
     background-color: #f06007;
     color: #000000;
 }
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.tarjeta-producto {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.tarjeta-producto h3 {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+}
+
+.tarjeta-producto p {
+    font-weight: bold;
+    color: #e67e22;
+    margin-bottom: 15px;
+}
+
+.tarjeta-producto button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.tarjeta-producto button:hover {
+    background-color: #1abc9c;
+}
+
+body.claro .tarjeta-producto {
+    background-color: #f9f9f9;
+    border-color: #ccc;
+    color: #000000;
+}
+
+body.claro .tarjeta-producto h3 {
+    color: #000000;
+}
