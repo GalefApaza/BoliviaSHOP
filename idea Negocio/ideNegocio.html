@@ -25,16 +25,26 @@
 </nav>
  
 <main>
-    <h1>Productos destacados</h1>
-    <p>MOchila</p>
-    <p>Tenis</p>
+    <h1>Contacto</h1>
+    
+    <form action="#" method="POST">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
 
-    <label for="">ir a:</label>
-  <select name="" id="">
-    <option value="">Inicio</option>
-    <option value="">servicios</option>
-    <option value="">Contacto</option>
-  </select>
+        <div>
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+
+        <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
    <h2>Imagen de referencia</h2>
   <img src="imagenes/Posible idea.jpg" alt="Posible idea">
   <p>esta es una imagen de refencia de lo que quiero hacer no es al 100% ya que tengo otro tipo de ideas pero la 'IA' me ayudo a generar esta idea</p>
