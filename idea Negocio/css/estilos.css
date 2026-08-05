@@ -1,4 +1,3 @@
-/* Ocultar el botón por defecto en escritorio */
 #btn-menu {
     display: none;
 }
@@ -11,7 +10,6 @@ body {
     color: #333;
 }
 
-
 header {
     background-color: #2c3e50;
     color: white;
@@ -22,7 +20,6 @@ header {
 header h1 {
     margin: 0;
 }
-
 
 nav ul {
     list-style: none;
@@ -49,7 +46,6 @@ nav a:hover {
     background-color: #1abc9c;
 }
 
-
 main {
     padding: 20px;
     max-width: 800px;
@@ -65,14 +61,12 @@ main h1 {
     padding-bottom: 5px;
 }
 
-
 .producto-item {
     background-color: #ecf0f1;
     padding: 8px 12px;
     margin: 5px 0;
     border-left: 4px solid #1abc9c;
 }
-
 
 .control-seccion {
     margin: 20px 0;
@@ -118,11 +112,7 @@ footer nav a:hover {
     text-decoration: underline;
 }
 
-
-
 @media (max-width: 600px) {
-
-  
     #btn-menu {
         display: block;
         background: none;
@@ -138,7 +128,6 @@ footer nav a:hover {
         flex-direction: column;
         gap: 5px;
     }
-
 
     nav ul.abierto {
         display: flex;
@@ -159,7 +148,6 @@ body.claro {
     color: #000000;
 }
 
-/* 2. Encabezado */
 body.claro header {
     background-color: #f06007;
     color: #000000;
@@ -264,6 +252,7 @@ body.claro form button[type="submit"] {
     background-color: #f06007;
     color: #000000;
 }
+
 .contenedor-productos {
     display: flex;
     flex-wrap: wrap;
@@ -316,4 +305,26 @@ body.claro .tarjeta-producto {
 
 body.claro .tarjeta-producto h3 {
     color: #000000;
+}
+
+.aviso {
+    display: none;
+    margin-top: 14px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.aviso.error {
+    display: block;
+    background-color: #3a1414;
+    color: #ffb4b4;
+    border-left: 4px solid #e05555;
+}
+
+.aviso.exito {
+    display: block;
+    background-color: #1f3a29;
+    color: #b4ffc8;
+    border-left: 4px solid #55e082;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,82 +7,83 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
- 
 <body>
-  
-    <header><h1 >BoliSHOP</h1>
-    <button type="button" id="btn-tema" class="boton-modo">☀️ Modo Día</button>
-  </header>
+    <header>
+        <h1>BoliSHOP</h1>
+        <button type="button" id="btn-tema" class="boton-modo">☀️ Modo Día</button>
+    </header>
 
-<nav class="">
-  <button type="button" id="btn-menu">☰</button>
-  <ul>
-    <li><a href="">Inicio</a></li>
-    <li><a href="">Productos</a></li>
-    <li><a href="">Servicios</a></li>
-    <li><a href="">Reclamos</a></li>
-  </ul>
-</nav>
- 
-<main>
-    <h1>Contacto</h1>
-    
-    <form action="#" method="POST">
-        <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
-        </div>
-
-        <div>
-            <label for="correo">Correo:</label>
-            <input type="email" id="correo" name="correo" required>
-        </div>
-
-        <div>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
-        </div>
-
-        <button type="submit">Enviar</button>
-    </form>
-
-    <h2>Productos en Venta</h2>
-    <div class="contenedor-productos">
-        <div class="tarjeta-producto">
-            <h3>Manta de Alpaca</h3>
-            <p>Bs. 26.00</p>
-            <button type="button">Añadir al Carrito</button>
-        </div>
-
-        <div class="tarjeta-producto">
-            <h3>Café de Yungas</h3>
-            <p>Bs. 28.00</p>
-            <button type="button">Añadir al Carrito</button>
-        </div>
-
-        <div class="tarjeta-producto">
-            <h3>Collar Artesanal</h3>
-            <p>Bs. 25.00</p>
-            <button type="button">Añadir al Carrito</button>
-        </div>
-    </div>
-    
-   <h2>Imagen de referencia</h2>
-  <img src="imagenes/Posible idea.jpg" alt="Posible idea">
-  <p>esta es una imagen de refencia de lo que quiero hacer no es al 100% ya que tengo otro tipo de ideas pero la 'IA' me ayudo a generar esta idea</p>
-</main>
-
-<footer class="">
-  <div class="">
-    <p>&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
     <nav>
-      <ul>
-        <li><a href="">Política de Privacidad</a></li>
-        <li><a href="">Términos de Servicio</a></li>
-      </ul>
+        <button type="button" id="btn-menu">☰</button>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Reclamos</a></li>
+        </ul>
     </nav>
-  </div>
-</footer>
-<script src="javaScribt/script.js"></script>
+ 
+    <main>
+        <h1>Contacto</h1>
+        <form action="#" method="POST" novalidate>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+
+            <div>
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo">
+            </div>
+
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+
+            <div id="aviso-pedido" class="aviso"></div>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <h2>Productos en Venta</h2>
+        <div class="contenedor-productos">
+            <div class="tarjeta-producto">
+                <h3>Manta de Alpaca</h3>
+                <p>Bs. 26.00</p>
+                <button type="button">Añadir al Carrito</button>
+            </div>
+
+            <div class="tarjeta-producto">
+                <h3>Café de Yungas</h3>
+                <p>Bs. 28.00</p>
+                <button type="button">Añadir al Carrito</button>
+            </div>
+
+            <div class="tarjeta-producto">
+                <h3>Collar Artesanal</h3>
+                <p>Bs. 25.00</p>
+                <button type="button">Añadir al Carrito</button>
+            </div>
+        </div>
+        
+        <h2>Imagen de referencia</h2>
+        <img src="imagenes/Posible idea.jpg" alt="Posible idea">
+        <p>Esta es una imagen de referencia de lo que quiero hacer, no es al 100% ya que tengo otro tipo de ideas pero la IA me ayudó a generar esta idea.</p>
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; 2026 BoliSHOP. Todos los derechos reservados.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos de Servicio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    
+    <script src="javaScribt/script.js"></script>
 </body>
 </html>
