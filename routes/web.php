@@ -63,11 +63,13 @@ Route::post('/productos/nuevo', function () {
         'nombre.required' => 'El nombre no puede quedar vacío.',
         'precio.required' => 'El precio no puede quedar vacío.',
         'precio.integer' => 'El precio tiene que ser un número entero, sin letras.',
+        'stock.required' => 'La cantidad en stock no puede quedar vacía.',
     ]);
 
     Producto::create([
         'nombre' => request()->input('nombre'),
         'precio' => request()->input('precio'),
+        'stock' => request()->input('stock'),
     ]);
 
     return redirect('/productos');

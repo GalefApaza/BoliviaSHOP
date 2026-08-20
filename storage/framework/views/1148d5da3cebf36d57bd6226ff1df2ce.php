@@ -1,6 +1,3 @@
-
-
-
 <?php $__env->startSection('contenido'); ?>
   <h2>SOBRE NOSTROS</h2>
   <p><b>MISION:</b> Promover y comercializar productos bolivianos de calidad, fomentando el desarrollo económico del pais.</p> <br>
