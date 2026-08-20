@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heladería Doña Nieve</title>
+</head>
+<body>
+
+    <header>
+        <h1>Heladería Doña Nieve</h1>
+        <p>Los mejores helados artesanales para endulzar tu día con el toque tradicional de siempre.</p>
+    </header>
+
+    <main>
+        <form id="form-helados" novalidate method="POST" action="procesar.php">
+            <div>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div>
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+
+            <div>
+                <label for="sabores">Qué sabores querés</label>
+                <textarea id="sabores" name="sabores"></textarea>
+            </div>
+
+            <button type="submit">Enviar mi pedido</button>
+        </form>
+
+        <p id="aviso-helados" class="aviso"></p>
+    </main>
+
+    <footer>
+        Parcial 2 - Josué Apaza - 11 de agosto de 2026
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
